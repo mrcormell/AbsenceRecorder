@@ -24,6 +24,11 @@ struct ContentView: View {
                         Image(systemName: "arrow.backward")
                     }
                 }
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button(action: { currentDate = currentDate.nextDay() }) {
+                        Image(systemName: "arrow.forward")
+                    }
+                }
                 
             }
         }
