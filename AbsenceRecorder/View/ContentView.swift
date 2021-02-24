@@ -9,11 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var divisions: [Division]
+    var currentDate: Date = Date()
     
     var body: some View {
-        Text("Code: \(divisions[0].code)")
-            .padding()
+        NavigationView {
+            List(divisions, id: \.self.code) { division in
+                Text("\(division.code)")
+                    .padding()
+            }
+            .navigationTitle(currentDate.getShortDate())
+        }
     }
+
 }
 
 struct ContentView_Previews: PreviewProvider {
