@@ -14,8 +14,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List(divisions, id: \.self.code) { division in
-                Text("\(division.code)")
-                    .padding()
+                DivisionItem(division: division)
             }
             .navigationTitle(currentDate.getShortDate())
             .toolbar {
