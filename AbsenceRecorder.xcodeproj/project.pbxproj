@@ -17,6 +17,7 @@
 		B40B8CFE25E6A2BD00D49EBE /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40B8CFD25E6A2BD00D49EBE /* Division.swift */; };
 		B40B8D0425E6AA2400D49EBE /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40B8D0325E6AA2400D49EBE /* Date.swift */; };
 		B40B8D0C25E6AF8B00D49EBE /* DivisionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40B8D0B25E6AF8B00D49EBE /* DivisionItem.swift */; };
+		B40B8D2025E7EE8800D49EBE /* AbsenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40B8D1F25E7EE8800D49EBE /* AbsenceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		B40B8CFD25E6A2BD00D49EBE /* Division.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Division.swift; sourceTree = "<group>"; };
 		B40B8D0325E6AA2400D49EBE /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		B40B8D0B25E6AF8B00D49EBE /* DivisionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionItem.swift; sourceTree = "<group>"; };
+		B40B8D1F25E7EE8800D49EBE /* AbsenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsenceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 			children = (
 				B40B8CC425E69F3400D49EBE /* ContentView.swift */,
 				B40B8D0B25E6AF8B00D49EBE /* DivisionItem.swift */,
+				B40B8D1F25E7EE8800D49EBE /* AbsenceView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				B40B8CFE25E6A2BD00D49EBE /* Division.swift in Sources */,
 				B40B8CC325E69F3400D49EBE /* AbsenceRecorderApp.swift in Sources */,
 				B40B8D0C25E6AF8B00D49EBE /* DivisionItem.swift in Sources */,
+				B40B8D2025E7EE8800D49EBE /* AbsenceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
