@@ -23,6 +23,7 @@
 		B40B8D3225E7F18000D49EBE /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40B8D3125E7F18000D49EBE /* StateController.swift */; };
 		B46E1EB925F7BE00008E90A6 /* AbsenceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46E1EB825F7BE00008E90A6 /* AbsenceItem.swift */; };
 		B46E1EBE25F7C431008E90A6 /* StudentAbsence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46E1EBD25F7C431008E90A6 /* StudentAbsence.swift */; };
+		B46E1EC325F7C655008E90A6 /* Absence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46E1EC225F7C655008E90A6 /* Absence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		B40B8D3125E7F18000D49EBE /* StateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
 		B46E1EB825F7BE00008E90A6 /* AbsenceItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsenceItem.swift; sourceTree = "<group>"; };
 		B46E1EBD25F7C431008E90A6 /* StudentAbsence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentAbsence.swift; sourceTree = "<group>"; };
+		B46E1EC225F7C655008E90A6 /* Absence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Absence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 				B40B8CF825E6A26A00D49EBE /* Student.swift */,
 				B40B8CFD25E6A2BD00D49EBE /* Division.swift */,
 				B46E1EBD25F7C431008E90A6 /* StudentAbsence.swift */,
+				B46E1EC225F7C655008E90A6 /* Absence.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				B40B8CC325E69F3400D49EBE /* AbsenceRecorderApp.swift in Sources */,
 				B40B8D0C25E6AF8B00D49EBE /* DivisionItem.swift in Sources */,
 				B40B8D2025E7EE8800D49EBE /* AbsenceView.swift in Sources */,
+				B46E1EC325F7C655008E90A6 /* Absence.swift in Sources */,
 				B40B8D3225E7F18000D49EBE /* StateController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
